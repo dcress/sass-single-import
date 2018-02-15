@@ -1,0 +1,36 @@
+{
+  "name": "sass-single-import",
+  "description": "Enables modular usage of Sass without worrying about importing the same component multiple times.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dcress/sass-single-import",
+  "author": {
+    "name": "Dan Cress",
+    "email": "daniel.ryan.cress@gmail.com",
+    "url": "www.dancress.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcress/sass-single-import"
+  },
+  "bugs": {
+    "url": "https://github.com/danielcress/grunt/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10",
+    "npm": ">=1.4"
+  },
+  "dependencies": {
+    "cli-color": "1.1"
+  },
+  "devDependencies": {
+    "coveralls": "2.x",
+    "istanbul": "0.4",
+    "jasmine-node": "1.x"
+  }
+}
+
+
